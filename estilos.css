@@ -1,0 +1,172 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background:#222;
+	color:#FFF;
+	font-family:Arial, helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:white;
+}
+
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background: #192060;
+	overflow: hidden;
+}
+
+.logo {
+	width: 43px;
+	float: left;
+}
+
+.logo img {
+	width:100%;
+	vertical-align: top;
+}
+
+nav {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin:0px 5px;
+}
+
+nav ul li a {
+	display: block;
+	background: #f2f2f2;
+	color: #037E8C;
+	padding:10px 20px;
+	text-decoration: none;
+	border-radius:3px;
+	transition:all 300ms ease;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background: #0745b9;
+}
+
+.mensaje {
+	background:#0745b9;
+	padding:20px;
+	color:#fff;
+	margin:20px 0;
+	border-radius:5px;
+}
+
+.articulo {
+	float: left;
+	width: 70%;
+	padding:0px 20px 20px 0px;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	background:#024959;
+	color:#fff;
+	padding:20px;
+	border-radius:5px;
+}
+
+.widget ul {
+	margin-left:20px;
+}
+
+.widget ul li {
+	margin:10px 0;
+	width: 100%;
+}
+
+.widget ul li a {
+	color:#fff;
+}
+
+.widget ul li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	width: 100%;
+	background:#333;
+	padding:20px 0;
+	color:#fff;
+}
+
+footer p {
+	text-align:center;
+}
+
+.form-register {
+	width: 400px;
+	background: #24303c;
+	padding: 30px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+	font-size: 22px;
+	margin-bottom: 20px;
+  }
+  
+  .controls {
+	width: 100%;
+	background: #24303c;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1f53c5;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: white;
+  }
+  
+  .form-register p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+  }
+  
+  .form-register a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .form-register a:hover {
+	color: white;
+	text-decoration: underline;
+  }
+  
+  .form-register .botons {
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+  }
